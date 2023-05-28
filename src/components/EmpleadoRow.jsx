@@ -1,25 +1,23 @@
-import { Badge, Col, Container, Row } from "react-bootstrap";
+import { Badge, Col, Row } from "react-bootstrap";
 import EmpleadoAvatar from "./EmpleadoAvatar";
 
 const EmpleadoRow = () => {
   return (
     <>
-      <Container className="py-5">
         <Row className="justify-content-md-center">
-          <Col className="p-0 border-top border-start border-bottom border-warning shadow" lg="2">
+          <Col className="p-0 border-top border-start border-bottom border-warning border-2 border-opacity-75 shadow" xs md="3" lg="2">
             <EmpleadoAvatar></EmpleadoAvatar>
           </Col>
-          <Col className="d-flex flex-column justify-content-center border-top border-end border-bottom border-warning border-2 border-opacity-25 shadow" lg="5">
+          <Col className="d-flex flex-column justify-content-center border-top border-end border-bottom border-warning border-2 border-opacity-75 shadow bg-dark text-light" xs md="6" lg="5">
             <h3>Laya Dueñas</h3>
             <p>
-              CEO{" "}
-              <Badge bg="primary" className="">
+              CEO
+              <Badge bg="warning text-dark" className="mx-2">
                 Business
               </Badge>
             </p>
           </Col>
         </Row>
-      </Container>
     </>
   );
 };
