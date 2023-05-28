@@ -1,10 +1,10 @@
 import { Image } from "react-bootstrap";
 
-const EmpleadoAvatar = () => {
+const EmpleadoAvatar = (avatar) => {
   return (
     <>
       <Image
-        src="https://xsgames.co/randomusers/avatar.php?g=female"
+        src={avatar}
         fluid="true"
       ></Image>
     </>
