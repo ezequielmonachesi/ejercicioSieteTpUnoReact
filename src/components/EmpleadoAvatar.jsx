@@ -4,7 +4,7 @@ const EmpleadoAvatar = () => {
   return (
     <>
       <Image
-        src="https://xsgames.co/randomusers/avatar.php?g=male"
+        src="https://xsgames.co/randomusers/avatar.php?g=female"
         fluid="true"
       ></Image>
     </>
