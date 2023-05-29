@@ -13,7 +13,7 @@ function App() {
         </section>
         <EmpleadoList></EmpleadoList>
       </Container>
-      <footer className="py-5 bg-dark text-light text-center">
+      <footer className="py-5 mt-5 bg-dark text-light text-center">
         <p>&copy; Todos los derechos reservados</p>
       </footer>
     </>

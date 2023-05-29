@@ -1,6 +1,6 @@
 import { Image } from "react-bootstrap";
 
-const EmpleadoAvatar = (avatar) => {
+const EmpleadoAvatar = ({avatar}) => {
   return (
     <>
       <Image
